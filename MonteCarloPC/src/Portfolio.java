@@ -1,4 +1,10 @@
 
+/**
+ * 
+ * @author Lauren Li
+ *
+ */
+
 public class Portfolio {
 	private String type;
 	private double initInvestment;
@@ -11,6 +17,10 @@ public class Portfolio {
 		this.setMeanReturn(meanReturn);
 		this.sd = sd;
 	}
+	
+
+	//----- Below are getters and setters ------------------------------
+
 	
 	public String getType() {
 		return type;

@@ -1,4 +1,9 @@
 
+/**
+ * @author Lauren Li
+ *Main Class to hold calculation results
+ */
+
 public class Result {
 	private double median;
 	private double TenPercentBest;
@@ -8,6 +13,9 @@ public class Result {
 		return "median: " + median + " | 10 % Best Case: " + TenPercentBest 
 				+ " | 10 % Worst Case: " + TenPercentWorst;
 	}
+
+	
+	//----- Below are getters and setters ------------------------------
 
 	public double getMedian() {
 		return median;

@@ -1,0 +1,19 @@
+Author: Lauren Li
+Date: 02/01/2017
+
+
+The program aims to simulate investment return over xx years by using the Monte Carlo alogrithm.
+
+
+Please use Test.java to test the output.
+
+
+Results:
+
+A - Aggressive
+median: 242417.4788828038 | 10 % Best Case: 566885.987392575 | 10 % Worst Case: 102533.60165894736
+
+B - Very Conservative	 	 	 
+median: 157139.58588127617 | 10 % Best Case: 222327.21295872962 | 10 % Worst Case: 111294.28797959145
+
+

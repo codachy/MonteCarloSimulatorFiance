@@ -1,6 +1,11 @@
 import org.apache.commons.math3.distribution.NormalDistribution;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
+/**
+ * 
+ * @author Lauren Li
+ *Simulator to process the random walk
+ */
 public class MonteCarloSimulator {
 	private int numOfSimulation;
 	private double inflation;
@@ -12,6 +17,11 @@ public class MonteCarloSimulator {
 		this.years = years;
 	}
 	
+	/**
+	 * Given portfolio, calculate the random simulation by numOfSimulation times. 
+	 * @param porfolio
+	 * @return Result
+	 */
 	public Result cal(Portfolio porfolio){
 		Result result = new Result();
 		if(porfolio==null) return result;
@@ -37,6 +47,8 @@ public class MonteCarloSimulator {
 		result.setTenPercentWorst(desStats.getPercentile(10));
 		return result;
 	}
+	
+	//----- Below are getters and setters ------------------------------
 
 	public int getNumOfSimulation() {
 		return numOfSimulation;
